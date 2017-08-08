@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     @IBOutlet weak var faceResults: UITextView!
     @IBOutlet weak var wordResults: UITextView!
     
-    var googleAPIKey = "AIzaSyBSAGsA1clouZc2PFuIjt0aZ_Cl_5h4CnU"
+    var googleAPIKey = "BLABLABLABLA"
     var googleURL: URL {
         return URL(string: "https://vision.googleapis.com/v1/images:annotate?key=\(googleAPIKey)")!
     }
